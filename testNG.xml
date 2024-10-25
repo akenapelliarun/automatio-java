@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="automation-rava">
+	<parameter name="browser" value="chrome" />
+	<parameter name="siteURL" value="https://app.rava.ai" />
+
+
+	 <test name="Onboarding">
+		<classes>
+			<class name="com.rava.test.OnboardingTest" />
+		</classes>
+	</test> 
+	 <test name="FreeForm"> <classes> <class name="com.rava.test.FreeformTest" 
+		/> </classes> </test> 
+ 	<test name="Brain Module">
+		<classes>
+			<class name="com.rava.test.BrainTest" />
+		</classes> 
+		</test>
+		<test name="Plan Module">
+		<classes>
+			<class name="com.rava.test.PlanTest" />
+		</classes>
+	
+ 	</test>
+ 	
+</suite>

@@ -1,0 +1,811 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 11 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-automation_rava" class="navigator-link">
+              <span class="suite-name border-failed">automation-rava</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-automation_rava" class="navigator-link ">
+                    <span>C:\Users\BAS FOUNDATION\eclipse-workspace\automation-rava\testNG.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-automation_rava" class="navigator-link ">
+                    <span class="test-stats">4 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-automation_rava" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-automation_rava" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-automation_rava" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-automation_rava" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-automation_rava" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">13 methods, 11 failed,   2 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-automation_rava" class="hide-methods failed suite-automation_rava"> (hide)</a> <!-- hide-methods failed suite-automation_rava -->
+                      <a href="#" panel-name="suite-automation_rava" class="show-methods failed suite-automation_rava"> (show)</a> <!-- show-methods failed suite-automation_rava -->
+                    </span>
+                    <div class="method-list-content failed suite-automation_rava">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-automation_rava" title="com.rava.test.BrainTest" class="method navigator-link" hash-for-method="VerifyBrandVoiceCreationWithAttach">VerifyBrandVoiceCreationWithAttach</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-automation_rava" title="com.rava.test.BrainTest" class="method navigator-link" hash-for-method="VerifyBrandVoiceCreationWithtext">VerifyBrandVoiceCreationWithtext</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-automation_rava" title="com.rava.test.BrainTest" class="method navigator-link" hash-for-method="VerifyBrandVoiceCreationWithurl">VerifyBrandVoiceCreationWithurl</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-automation_rava" title="com.rava.test.BrainTest" class="method navigator-link" hash-for-method="VerifyBrandVoiceUpdateAndDelettion">VerifyBrandVoiceUpdateAndDelettion</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-automation_rava" title="com.rava.test.FreeformTest" class="method navigator-link" hash-for-method="VerifyFreeformFeature">VerifyFreeformFeature</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-automation_rava" title="com.rava.test.BrainTest" class="method navigator-link" hash-for-method="VerifySnipsCreation">VerifySnipsCreation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-automation_rava" title="com.rava.test.BrainTest" class="method navigator-link" hash-for-method="VerifySnipsUpdateAndDelete">VerifySnipsUpdateAndDelete</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-automation_rava" title="com.rava.test.PlanTest" class="method navigator-link" hash-for-method="VerifyStrategyGenerationFeature">VerifyStrategyGenerationFeature</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-automation_rava" title="com.rava.test.OnboardingTest" class="method navigator-link" hash-for-method="onboardingUsingDoc(https://app.rava.ai)">onboardingUsingDoc(https://app.rava.ai)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-automation_rava" title="com.rava.test.OnboardingTest" class="method navigator-link" hash-for-method="onboardingUsingLink(https://app.rava.ai)">onboardingUsingLink(https://app.rava.ai)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-automation_rava" title="com.rava.test.OnboardingTest" class="method navigator-link" hash-for-method="onboardingUsingText(https://app.rava.ai)">onboardingUsingText(https://app.rava.ai)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-automation_rava -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-automation_rava" class="hide-methods passed suite-automation_rava"> (hide)</a> <!-- hide-methods passed suite-automation_rava -->
+                      <a href="#" panel-name="suite-automation_rava" class="show-methods passed suite-automation_rava"> (show)</a> <!-- show-methods passed suite-automation_rava -->
+                    </span>
+                    <div class="method-list-content passed suite-automation_rava">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-automation_rava" title="com.rava.test.BrainTest" class="method navigator-link" hash-for-method="VerifyBrandVoiceCreationWithDynamic">VerifyBrandVoiceCreationWithDynamic</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-automation_rava" title="com.rava.test.BrainTest" class="method navigator-link" hash-for-method="VerifyCompanyPage">VerifyCompanyPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-automation_rava -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-automation_rava" class="panel automation_rava">
+          <div class="suite-automation_rava-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.rava.test.BrainTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyBrandVoiceCreationWithAttach">
+                  </a> <!-- VerifyBrandVoiceCreationWithAttach -->
+                  <span class="method-name">VerifyBrandVoiceCreationWithAttach</span>
+                  <div class="stack-trace">java.lang.AssertionError: Exception occured while testing VerifyBrandVoiceCreationWithAttach : element click intercepted: Element &lt;button class=&quot;rounded-[4px] bg-primaryPink font-semibold text-white px-[16px] py-[8px] text-[14px] flex items-center justify-center gap-[4px] group&quot;&gt;...&lt;/button&gt; is not clickable at point (1442, 126). Other element would receive the click: &lt;div class=&quot;DeleteComponent_popUpContainer__JFdxU&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=127.0.6533.73)
+Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b67d576ea15f548ad83c8ad255a05ad4, clickElement {id=f.797ED1EFF5A1F83BBC2A5C99B77E504B.d.46E5493455F521BC82DC896DEDF743B9.e.196}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.73, chrome: {chromedriverVersion: 127.0.6533.72 (9755e24ca85a..., userDataDir: C:\Users\BASFOU~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49293}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49293/devtoo..., se:cdpVersion: 127.0.6533.73, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (b67d576ea15f548ad83c8ad255a05ad4)] -&gt; xpath: //button[contains(text(),&apos;Create Voice&apos;)]]
+Session ID: b67d576ea15f548ad83c8ad255a05ad4
+	at com.rava.test.BrainTest.VerifyBrandVoiceCreationWithAttach(BrainTest.java:195)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Verify Brandvoice feature)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyBrandVoiceCreationWithtext">
+                  </a> <!-- VerifyBrandVoiceCreationWithtext -->
+                  <span class="method-name">VerifyBrandVoiceCreationWithtext</span>
+                  <div class="stack-trace">java.lang.AssertionError: Exception occured while testing VerifyBrandVoiceCreationWithDynamic : element click intercepted: Element &lt;button class=&quot;rounded-[4px] bg-primaryPink font-semibold text-white px-[16px] py-[8px] text-[14px] flex items-center justify-center gap-[4px] group&quot;&gt;...&lt;/button&gt; is not clickable at point (1442, 126). Other element would receive the click: &lt;div class=&quot;DeleteComponent_popUpContainer__JFdxU&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=127.0.6533.73)
+Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b67d576ea15f548ad83c8ad255a05ad4, clickElement {id=f.797ED1EFF5A1F83BBC2A5C99B77E504B.d.46E5493455F521BC82DC896DEDF743B9.e.196}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.73, chrome: {chromedriverVersion: 127.0.6533.72 (9755e24ca85a..., userDataDir: C:\Users\BASFOU~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49293}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49293/devtoo..., se:cdpVersion: 127.0.6533.73, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (b67d576ea15f548ad83c8ad255a05ad4)] -&gt; xpath: //button[contains(text(),&apos;Create Voice&apos;)]]
+Session ID: b67d576ea15f548ad83c8ad255a05ad4
+	at com.rava.test.BrainTest.VerifyBrandVoiceCreationWithtext(BrainTest.java:136)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Verify Brandvoice feature)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyBrandVoiceCreationWithurl">
+                  </a> <!-- VerifyBrandVoiceCreationWithurl -->
+                  <span class="method-name">VerifyBrandVoiceCreationWithurl</span>
+                  <div class="stack-trace">java.lang.AssertionError: Exception occured while testing VerifyBrandVoiceCreationWithurl : element click intercepted: Element &lt;button class=&quot;rounded-[4px] bg-primaryPink font-semibold text-white px-[16px] py-[8px] text-[14px] flex items-center justify-center gap-[4px] group&quot;&gt;...&lt;/button&gt; is not clickable at point (1442, 126). Other element would receive the click: &lt;div class=&quot;DeleteComponent_popUpContainer__JFdxU&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=127.0.6533.73)
+Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b67d576ea15f548ad83c8ad255a05ad4, clickElement {id=f.797ED1EFF5A1F83BBC2A5C99B77E504B.d.46E5493455F521BC82DC896DEDF743B9.e.196}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.73, chrome: {chromedriverVersion: 127.0.6533.72 (9755e24ca85a..., userDataDir: C:\Users\BASFOU~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49293}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49293/devtoo..., se:cdpVersion: 127.0.6533.73, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (b67d576ea15f548ad83c8ad255a05ad4)] -&gt; xpath: //button[contains(text(),&apos;Create Voice&apos;)]]
+Session ID: b67d576ea15f548ad83c8ad255a05ad4
+	at com.rava.test.BrainTest.VerifyBrandVoiceCreationWithurl(BrainTest.java:165)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Verify Brandvoice feature)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyBrandVoiceUpdateAndDelettion">
+                  </a> <!-- VerifyBrandVoiceUpdateAndDelettion -->
+                  <span class="method-name">VerifyBrandVoiceUpdateAndDelettion</span>
+                  <div class="stack-trace">java.lang.AssertionError: Exception occured while VerifyBrandVoiceUpdateAndDelettion VerifyBrandVoiceUpdate : no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[contains(text(),&apos;Yes, I�m sure&apos;)]&quot;}
+  (Session info: chrome=127.0.6533.73)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b67d576ea15f548ad83c8ad255a05ad4, findElement {using=xpath, value=//div[contains(text(),&apos;Yes, I�m sure&apos;)]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.73, chrome: {chromedriverVersion: 127.0.6533.72 (9755e24ca85a..., userDataDir: C:\Users\BASFOU~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49293}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49293/devtoo..., se:cdpVersion: 127.0.6533.73, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b67d576ea15f548ad83c8ad255a05ad4
+	at com.rava.test.BrainTest.VerifyBrandVoiceUpdateAndDelettion(BrainTest.java:107)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Verify Brandvoice feature)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifySnipsCreation">
+                  </a> <!-- VerifySnipsCreation -->
+                  <span class="method-name">VerifySnipsCreation</span>
+                  <div class="stack-trace">java.lang.AssertionError: Exception occured while testing VerifySnipsCreation : element click intercepted: Element &lt;div class=&quot;flex item-center w-full gap-[4px] relative&quot;&gt;...&lt;/div&gt; is not clickable at point (153, 386). Other element would receive the click: &lt;div class=&quot;DeleteComponent_popUpContainer__JFdxU&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=127.0.6533.73)
+Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b67d576ea15f548ad83c8ad255a05ad4, clickElement {id=f.797ED1EFF5A1F83BBC2A5C99B77E504B.d.46E5493455F521BC82DC896DEDF743B9.e.91}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.73, chrome: {chromedriverVersion: 127.0.6533.72 (9755e24ca85a..., userDataDir: C:\Users\BASFOU~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49293}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49293/devtoo..., se:cdpVersion: 127.0.6533.73, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (b67d576ea15f548ad83c8ad255a05ad4)] -&gt; xpath: (//div[contains(@class,&apos;flex item-center&apos;)])[3]]
+Session ID: b67d576ea15f548ad83c8ad255a05ad4
+	at com.rava.test.BrainTest.VerifySnipsCreation(BrainTest.java:219)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Verify Snips feature)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifySnipsUpdateAndDelete">
+                  </a> <!-- VerifySnipsUpdateAndDelete -->
+                  <span class="method-name">VerifySnipsUpdateAndDelete</span>
+                  <div class="stack-trace">java.lang.AssertionError: Exception occured while testing VerifySnipsUpdateAndDelete : no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;relative cursor-pointer&apos;]//img[1]&quot;}
+  (Session info: chrome=127.0.6533.73)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b67d576ea15f548ad83c8ad255a05ad4, findElement {using=xpath, value=//div[@class=&apos;relative cursor-pointer&apos;]//img[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.73, chrome: {chromedriverVersion: 127.0.6533.72 (9755e24ca85a..., userDataDir: C:\Users\BASFOU~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49293}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49293/devtoo..., se:cdpVersion: 127.0.6533.73, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b67d576ea15f548ad83c8ad255a05ad4
+	at com.rava.test.BrainTest.VerifySnipsUpdateAndDelete(BrainTest.java:250)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Verify SnipsUpdate feature)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-automation_rava-class-failed -->
+          <div class="suite-automation_rava-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.rava.test.OnboardingTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="onboardingUsingDoc(https://app.rava.ai)">
+                  </a> <!-- onboardingUsingDoc(https://app.rava.ai) -->
+                  <span class="method-name">onboardingUsingDoc</span>
+                  <span class="parameters">(https://app.rava.ai)</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class=&quot;flex items-center justify-center m-auto mb-[48px]&quot;] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.73, chrome: {chromedriverVersion: 127.0.6533.72 (9755e24ca85a..., userDataDir: C:\Users\BASFOU~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65523}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65523/devtoo..., se:cdpVersion: 127.0.6533.73, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 812bc783f73129bb817cb740df8579fd
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at com.rava.test.OnboardingTest.onboardingUsingDoc(OnboardingTest.java:154)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Verify Onboarding using Link)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="onboardingUsingLink(https://app.rava.ai)">
+                  </a> <!-- onboardingUsingLink(https://app.rava.ai) -->
+                  <span class="method-name">onboardingUsingLink</span>
+                  <span class="parameters">(https://app.rava.ai)</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class=&quot;flex items-center justify-center m-auto mb-[48px]&quot;] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.73, chrome: {chromedriverVersion: 127.0.6533.72 (9755e24ca85a..., userDataDir: C:\Users\BASFOU~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65523}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65523/devtoo..., se:cdpVersion: 127.0.6533.73, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 812bc783f73129bb817cb740df8579fd
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at com.rava.test.OnboardingTest.onboardingUsingLink(OnboardingTest.java:97)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Verify Onboarding using Link)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="onboardingUsingText(https://app.rava.ai)">
+                  </a> <!-- onboardingUsingText(https://app.rava.ai) -->
+                  <span class="method-name">onboardingUsingText</span>
+                  <span class="parameters">(https://app.rava.ai)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//button[contains(text(), &apos;Generate Strategy&apos;)]&quot;}
+  (Session info: chrome=127.0.6533.73)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [812bc783f73129bb817cb740df8579fd, findElement {using=xpath, value=//button[contains(text(), &apos;Generate Strategy&apos;)]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.73, chrome: {chromedriverVersion: 127.0.6533.72 (9755e24ca85a..., userDataDir: C:\Users\BASFOU~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65523}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65523/devtoo..., se:cdpVersion: 127.0.6533.73, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 812bc783f73129bb817cb740df8579fd
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy16.click(Unknown Source)
+	at com.rava.pages.LoginPage.clickOnGenrateStrategyBtn(LoginPage.java:86)
+	at com.rava.test.OnboardingTest.onboardingUsingText(OnboardingTest.java:57)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Verify Onboarding Using Text)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-automation_rava-class-failed -->
+          <div class="suite-automation_rava-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.rava.test.FreeformTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyFreeformFeature">
+                  </a> <!-- VerifyFreeformFeature -->
+                  <span class="method-name">VerifyFreeformFeature</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;Layout_recentContainer__GCcyK&apos;]//div[contains(text(), &apos;Freeform&apos;)]&quot;}
+  (Session info: chrome=127.0.6533.73)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fce431a09c72f18fbf7d3b586a91843b, findElement {using=xpath, value=//div[@class=&apos;Layout_recentContainer__GCcyK&apos;]//div[contains(text(), &apos;Freeform&apos;)]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.73, chrome: {chromedriverVersion: 127.0.6533.72 (9755e24ca85a..., userDataDir: C:\Users\BASFOU~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49252}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49252/devtoo..., se:cdpVersion: 127.0.6533.73, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fce431a09c72f18fbf7d3b586a91843b
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy16.click(Unknown Source)
+	at com.rava.pages.FreeformPage.clickOnFreeformBtn(FreeformPage.java:38)
+	at com.rava.test.FreeformTest.VerifyFreeformFeature(FreeformTest.java:40)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Verify Freeform feature)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-automation_rava-class-failed -->
+          <div class="suite-automation_rava-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.rava.test.PlanTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyStrategyGenerationFeature">
+                  </a> <!-- VerifyStrategyGenerationFeature -->
+                  <span class="method-name">VerifyStrategyGenerationFeature</span>
+                  <div class="stack-trace">java.lang.AssertionError: Exception occured while testing VerifyStrategyGenerationFeature : no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//input[@placeholder=&apos;Enter Name&apos;])[1]&quot;}
+  (Session info: chrome=127.0.6533.73)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e85242ce8a8d1fa334247569ee399621, findElement {using=xpath, value=(//input[@placeholder=&apos;Enter Name&apos;])[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.73, chrome: {chromedriverVersion: 127.0.6533.72 (9755e24ca85a..., userDataDir: C:\Users\BASFOU~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49370}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49370/devtoo..., se:cdpVersion: 127.0.6533.73, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e85242ce8a8d1fa334247569ee399621
+	at com.rava.test.PlanTest.VerifyStrategyGenerationFeature(PlanTest.java:61)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Verify Plan feature)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-automation_rava-class-failed -->
+          <div class="suite-automation_rava-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.rava.test.BrainTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyBrandVoiceCreationWithDynamic">
+                  </a> <!-- VerifyBrandVoiceCreationWithDynamic -->
+                  <span class="method-name">VerifyBrandVoiceCreationWithDynamic</span>
+                  <em>
+(Verify Brandvoice feature)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyCompanyPage">
+                  </a> <!-- VerifyCompanyPage -->
+                  <span class="method-name">VerifyCompanyPage</span>
+                  <em>
+(Verify Company feature)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-automation_rava-class-passed -->
+        </div> <!-- panel automation_rava -->
+        <div panel-name="test-xml-automation_rava" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\BAS FOUNDATION\eclipse-workspace\automation-rava\testNG.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;automation-rava&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;parameter name=&quot;siteURL&quot; value=&quot;https://app.rava.ai&quot;/&gt;
+  &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Onboarding&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.rava.test.OnboardingTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Onboarding --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;FreeForm&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.rava.test.FreeformTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- FreeForm --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Brain Module&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.rava.test.BrainTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Brain Module --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Plan Module&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.rava.test.PlanTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Plan Module --&gt;
+&lt;/suite&gt; &lt;!-- automation-rava --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-automation_rava" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for automation-rava</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Onboarding (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">FreeForm (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Brain Module (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Plan Module (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-automation_rava" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for automation-rava</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-automation_rava" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for automation-rava</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_automation_rava');
+function tableData_automation_rava() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(13);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'VerifyBrandVoiceUpdateAndDelettion')
+data.setCell(0, 2, 'com.rava.test.BrainTest')
+data.setCell(0, 3, 53870);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'onboardingUsingText')
+data.setCell(1, 2, 'com.rava.test.OnboardingTest')
+data.setCell(1, 3, 52194);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'onboardingUsingDoc')
+data.setCell(2, 2, 'com.rava.test.OnboardingTest')
+data.setCell(2, 3, 50762);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'onboardingUsingLink')
+data.setCell(3, 2, 'com.rava.test.OnboardingTest')
+data.setCell(3, 3, 50545);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'VerifyFreeformFeature')
+data.setCell(4, 2, 'com.rava.test.FreeformTest')
+data.setCell(4, 3, 50147);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'VerifyStrategyGenerationFeature')
+data.setCell(5, 2, 'com.rava.test.PlanTest')
+data.setCell(5, 3, 50117);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'VerifySnipsUpdateAndDelete')
+data.setCell(6, 2, 'com.rava.test.BrainTest')
+data.setCell(6, 3, 50052);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'VerifyBrandVoiceCreationWithDynamic')
+data.setCell(7, 2, 'com.rava.test.BrainTest')
+data.setCell(7, 3, 8005);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'VerifyCompanyPage')
+data.setCell(8, 2, 'com.rava.test.BrainTest')
+data.setCell(8, 3, 5302);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'VerifyBrandVoiceCreationWithurl')
+data.setCell(9, 2, 'com.rava.test.BrainTest')
+data.setCell(9, 3, 1128);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'VerifyBrandVoiceCreationWithAttach')
+data.setCell(10, 2, 'com.rava.test.BrainTest')
+data.setCell(10, 3, 1086);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'VerifyBrandVoiceCreationWithtext')
+data.setCell(11, 2, 'com.rava.test.BrainTest')
+data.setCell(11, 3, 1086);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'VerifySnipsCreation')
+data.setCell(12, 2, 'com.rava.test.BrainTest')
+data.setCell(12, 3, 1085);
+window.suiteTableData['automation_rava']= { tableData: data, tableDiv: 'times-div-automation_rava'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 6 minutes</span>
+              <div id="times-div-automation_rava">
+              </div> <!-- times-div-automation_rava -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-automation_rava" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for automation-rava</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-automation_rava" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-automation_rava" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.rava.test.PlanTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">initTestData</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.rava.test.OnboardingTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">goToSiteUrl(https://app.rava.ai, chrome)</span>
+                <span class="method-start">81 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">onboardingUsingText(https://app.rava.ai)</span>
+                <span class="method-start">4930 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">onboardingUsingLink(https://app.rava.ai)</span>
+                <span class="method-start">57244 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">onboardingUsingDoc(https://app.rava.ai)</span>
+                <span class="method-start">107799 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">quitDriver</span>
+                <span class="method-start">158567 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.rava.test.FreeformTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">goToSiteUrl(https://app.rava.ai, chrome)</span>
+                <span class="method-start">158907 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">VerifyFreeformFeature</span>
+                <span class="method-start">163343 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">quitDriver</span>
+                <span class="method-start">213497 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.rava.test.BrainTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">goToSiteUrl(https://app.rava.ai, chrome)</span>
+                <span class="method-start">213770 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">VerifyCompanyPage</span>
+                <span class="method-start">217710 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifyBrandVoiceCreationWithDynamic</span>
+                <span class="method-start">223016 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">VerifyBrandVoiceUpdateAndDelettion</span>
+                <span class="method-start">231028 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">VerifyBrandVoiceCreationWithtext</span>
+                <span class="method-start">284905 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">VerifyBrandVoiceCreationWithurl</span>
+                <span class="method-start">286004 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">VerifyBrandVoiceCreationWithAttach</span>
+                <span class="method-start">287145 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">VerifySnipsCreation</span>
+                <span class="method-start">288235 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">VerifySnipsUpdateAndDelete</span>
+                <span class="method-start">289332 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">quitDriver</span>
+                <span class="method-start">339391 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.rava.test.PlanTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">goToSiteUrl(https://app.rava.ai, chrome)</span>
+                <span class="method-start">339797 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">VerifyStrategyGenerationFeature</span>
+                <span class="method-start">343042 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">quitDriver</span>
+                <span class="method-start">393169 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

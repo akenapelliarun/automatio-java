@@ -1,0 +1,7 @@
+com\rava\pages\BaseAutomationPage.class
+com\rava\pages\LoginPage.class
+com\rava\pages\OnboardingPage.class
+com\rava\pages\BrainPage.class
+com\rava\pages\PlanPage.class
+com\rava\pages\FreeformPage.class
+com\rava\pages\BaseAutomationPage$WEB_ACTIONS.class

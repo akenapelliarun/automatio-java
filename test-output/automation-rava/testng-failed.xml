@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [automation-rava]" guice-stage="DEVELOPMENT">
+  <parameter name="siteURL" value="https://app.rava.ai"/>
+  <parameter name="browser" value="chrome"/>
+  <test thread-count="5" name="Onboarding(failed)">
+    <classes>
+      <class name="com.rava.test.OnboardingTest">
+        <methods>
+          <include name="quitDriver"/>
+          <include name="goToSiteUrl"/>
+          <include name="onboardingUsingDoc" invocation-numbers="0"/>
+          <include name="onboardingUsingText" invocation-numbers="0"/>
+          <include name="initTestData"/>
+          <include name="onboardingUsingLink" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.rava.test.OnboardingTest -->
+    </classes>
+  </test> <!-- Onboarding(failed) -->
+  <test thread-count="5" name="FreeForm(failed)">
+    <classes>
+      <class name="com.rava.test.FreeformTest">
+        <methods>
+          <include name="VerifyFreeformFeature"/>
+          <include name="goToSiteUrl"/>
+          <include name="initTestData"/>
+          <include name="quitDriver"/>
+        </methods>
+      </class> <!-- com.rava.test.FreeformTest -->
+    </classes>
+  </test> <!-- FreeForm(failed) -->
+  <test thread-count="5" name="Brain Module(failed)">
+    <classes>
+      <class name="com.rava.test.BrainTest">
+        <methods>
+          <include name="VerifySnipsCreation"/>
+          <include name="VerifyBrandVoiceUpdateAndDelettion"/>
+          <include name="VerifyBrandVoiceCreationWithurl"/>
+          <include name="initTestData"/>
+          <include name="VerifyBrandVoiceCreationWithAttach"/>
+          <include name="goToSiteUrl"/>
+          <include name="VerifyBrandVoiceCreationWithtext"/>
+          <include name="quitDriver"/>
+          <include name="VerifySnipsUpdateAndDelete"/>
+        </methods>
+      </class> <!-- com.rava.test.BrainTest -->
+    </classes>
+  </test> <!-- Brain Module(failed) -->
+  <test thread-count="5" name="Plan Module(failed)">
+    <classes>
+      <class name="com.rava.test.PlanTest">
+        <methods>
+          <include name="initTestData"/>
+          <include name="VerifyStrategyGenerationFeature"/>
+          <include name="quitDriver"/>
+          <include name="goToSiteUrl"/>
+        </methods>
+      </class> <!-- com.rava.test.PlanTest -->
+    </classes>
+  </test> <!-- Plan Module(failed) -->
+</suite> <!-- Failed suite [automation-rava] -->
